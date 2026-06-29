@@ -1,1 +1,87 @@
+/* ===================================
+   Thumbprint Design System
+   Version: 0.1
+=================================== */
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Raleway:wght@600;700;800&display=swap');
+
+:root {
+    --background: #FFF5EC;
+    --primary: #C88B85;
+    --text: #2B2B2B;
+    --white: #FFFFFF;
+
+    --radius: 16px;
+
+    --shadow:
+        0 10px 30px rgba(0,0,0,.08);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--background);
+    color: var(--text);
+
+    font-family: "DM Sans", sans-serif;
+
+    line-height: 1.7;
+}
+
+header {
+    background: var(--primary);
+    color: white;
+
+    padding: 80px 40px;
+
+    text-align: center;
+}
+
+header h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 3rem;
+
+    margin-bottom: 16px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+main {
+    max-width: 900px;
+
+    margin: 60px auto;
+
+    padding: 40px;
+
+    background: white;
+
+    border-radius: var(--radius);
+
+    box-shadow: var(--shadow);
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-family: "Raleway", sans-serif;
+
+    color: var(--primary);
+
+    margin-bottom: 20px;
+}
+
+ul {
+    margin-left: 25px;
+}
+
+li {
+    margin-bottom: 10px;
+}
